@@ -10,10 +10,11 @@ import jakarta.validation.constraints.Pattern;
 
 public record DTOMedicos(
 
-        @NotBlank(message = "O nome não pode estar vazio!") String nome,
+        @NotBlank(message = "O nome não pode estar vazio!") @Pattern(regexp = "^[A-Z][a-zA-Z0-9]*$")
+        @Pattern(regexp = "\\D*") String nome,
         @NotBlank(message = "O email não pode estar vazio e precisa conter um @") @Email String email,
         @NotBlank(message = "O telefone não pode estar vazio e precisa ter 10 números, contando com o DDD")
-        @Pattern(regexp = "\\d{10}") String telefone,
+        @Pattern(regexp = "(\\(?\\d{2}\\)?\\s)?(\\d{4,5}\\-\\d{4})") String telefone,
         @NotBlank(message = "O crm não pode estar vazio e tem que ter de 4 à 6 números") @Pattern(regexp = "\\d{4,6}") String crm,
         @NotNull(message = "A especialidade não pode estar vazia") Especialidade especialidade,
         @NotNull(message = "O endereço não pode estar vazio") @Valid DTOEndereco endereco) {

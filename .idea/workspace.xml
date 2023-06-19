@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce9a64e6-bf62-4d5f-b364-b11e5ef1e728" name="Changes" comment="Inserindo a camada service e fazendo os ajustes da integração do controller" />
+    <list default="true" id="ce9a64e6-bf62-4d5f-b364-b11e5ef1e728" name="Changes" comment="Adicionando o arquivo medico service">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOMedicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOMedicos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/service/MedicoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/service/MedicoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/DTOs/DTOMedicos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/DTOs/DTOMedicos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/service/MedicoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/service/MedicoService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +30,26 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "author": "JoaoVitor83"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "author": "JoaoVitor83"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2395b6eb-f388-4361-8de4-6ad6dadc33f4" />
+        <option name="url" value="git@github.com:JoaoVitor83/vollmed_api.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -112,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687202021003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adicionando o arquivo medico service">
+      <created>1687202059475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687202059475</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adicionando o arquivo medico service">
+      <created>1687202072822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687202072822</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adição de mais uma migration" />
     <MESSAGE value="Inserindo a camada service e fazendo os ajustes da integração do controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserindo a camada service e fazendo os ajustes da integração do controller" />
+    <MESSAGE value="Adicionando o arquivo medico service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando o arquivo medico service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

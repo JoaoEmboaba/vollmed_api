@@ -16,10 +16,7 @@ public class MedicoService {
     private MedicoRepository repository;
 
     public Medico cadastrarMedico(Medico medico) {
-        medico.setTelefone(medico.getTelefone()
-                .replace("(", "").
-                replace(")", "").
-                replace("-", "").replace(" ", ""));
+        medico.setTelefone(medico.getTelefone().replace("(", "").replace(")", "").replace("-", "").replace(" ", ""));
         return repository.save(medico);
     }
 
