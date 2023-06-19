@@ -5,43 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce9a64e6-bf62-4d5f-b364-b11e5ef1e728" name="Changes" comment="Adição de mais uma migration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/AutenticacaoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/PacienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/endereco/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOAtualizacaoMedico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOAtualizacaoPaciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOPaciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/AutenticacaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/DTOAutenticacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/exception/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/DadosTokenJWT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/SecurityConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/repository/PacienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__alter-table-add-column.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__alter-table_medicos-add-column-ativo.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__create-table-pacientes.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__alter-table-pacientes-add-column-ativo.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__update-table-paciente.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__create-table-usuarios.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/service/MedicoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/AutenticacaoController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/MedicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/endereco/DadosEndereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/endereco/DTOs/DTOEndereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/endereco/Endereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/medico/DadosMedicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOMedicos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/medico/Especialidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Especialidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Medico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/repository/MedicoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create-table-medicos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create-table-medicos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Especialidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Especialidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/AutenticacaoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/DTOAutenticacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/SecurityConfigurations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/SecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/TokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/repository/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/ApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/controller/AutenticacaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/controller/MedicoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/controller/MedicoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Especialidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Especialidade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Medico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Medico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/usuario/AutenticacaoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/usuario/DTOAutenticacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/usuario/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/infra/security/SecurityConfigurations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/infra/security/SecurityFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/infra/security/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/repository/UsuarioRepository.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +80,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/joao.emboaba/OneDrive - Senior Sistemas SA/Documentos/Projetos/vollmed/vollmed",
+    "last_opened_file_path": "C:/Users/joao.emboaba/Documents/vollmed_api",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
     "settings.editor.splitter.proportion": "0.26985744"
   }
 }]]></component>
@@ -146,6 +140,17 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adição de mais uma migration" />
     <option name="LAST_COMMIT_MESSAGE" value="Adição de mais uma migration" />
@@ -164,5 +169,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vollmed_api$ApiApplication.ic" NAME="ApiApplication Coverage Results" MODIFIED="1687196625934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.vollmed.vollmed.*</FILTER>
+    </SUITE>
   </component>
 </project>

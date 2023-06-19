@@ -10,12 +10,12 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import org.hibernate.boot.archive.scan.spi.PackageInfoArchiveEntryHandler;
 
-public record DTOListagemPaciente(@NotNull Long id, @NotBlank String nome, @NotBlank @Email String email,
+public record DTOListagemPaciente(@NotBlank String nome, @NotBlank @Email String email,
                                   @NotBlank String telefone, @NotBlank String cpf, @NotBlank Boolean ativo,
                                   @NotBlank @Valid Endereco endereco) {
 
     public DTOListagemPaciente(Paciente paciente) {
-        this(paciente.getId(), paciente.getNome(), paciente.getEmail(), paciente.getTelefone(),
+        this(paciente.getNome(), paciente.getEmail(), paciente.getTelefone(),
                 paciente.getCpf(), paciente.getAtivo(), paciente.getEndereco());
     }
 }
