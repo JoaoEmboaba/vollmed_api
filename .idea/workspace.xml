@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce9a64e6-bf62-4d5f-b364-b11e5ef1e728" name="Changes" comment="Adição de mais uma migration">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/service/MedicoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/AutenticacaoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/controller/MedicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Especialidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Especialidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/medico/Medico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/AutenticacaoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/DTOAutenticacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/entities/usuario/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/SecurityConfigurations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/SecurityFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/infra/security/TokenService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vollmed/vollmed/repository/UsuarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/ApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/controller/AutenticacaoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/controller/MedicoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/controller/MedicoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/DTOs/DTOListagemMedico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Especialidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Especialidade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Medico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/medico/Medico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/paciente/DTOs/DTOListagemPaciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/usuario/AutenticacaoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/usuario/DTOAutenticacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/entities/usuario/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/infra/security/SecurityConfigurations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/infra/security/SecurityFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/infra/security/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vollmed/vollmed/repository/UsuarioRepository.class" beforeDir="false" />
-    </list>
+    <list default="true" id="ce9a64e6-bf62-4d5f-b364-b11e5ef1e728" name="Changes" comment="Inserindo a camada service e fazendo os ajustes da integração do controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,15 +105,49 @@
       <option name="project" value="LOCAL" />
       <updated>1684933761896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inserindo a camada service e fazendo os ajustes da integração do controller">
+      <created>1687202021003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687202021003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -153,7 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adição de mais uma migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição de mais uma migration" />
+    <MESSAGE value="Inserindo a camada service e fazendo os ajustes da integração do controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserindo a camada service e fazendo os ajustes da integração do controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
